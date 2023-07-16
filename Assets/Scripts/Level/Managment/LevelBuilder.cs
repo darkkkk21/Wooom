@@ -1,8 +1,7 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 
-namespace Level
+namespace Level.Managment
 {
     public class LevelBuilder : MonoBehaviour
     {

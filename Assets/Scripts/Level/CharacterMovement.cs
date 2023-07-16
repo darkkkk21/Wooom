@@ -1,4 +1,5 @@
 ﻿using DG.Tweening;
+using Level.Managment;
 using Unity.Collections;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -7,6 +8,7 @@ namespace Level
 {
     public class CharacterMovement : MonoBehaviour
     {
+        public EnergyHandler EnergyHandler;
         public float swipeThreshold = 50f;
         public Tilemap Tilemap;
 
@@ -111,7 +113,19 @@ namespace Level
             {
                 Move(targetPosition);
                 currentCell = targetCell;
+                EnergyHandler.Spend(1);
             }
+
+            if (overlapCollider != null && overlapCollider.GetComponent<Energy>())
+            {
+                var energy = overlapCollider.GetComponent<Energy>();
+                EnergyHandler.AddEnergy(energy.LevelEnergy);
+                Destroy(energy.gameObject);
+                
+                Move(targetPosition);
+                currentCell = targetCell;
+            }
+                
         }
 
         private void Move(Vector3 position)
