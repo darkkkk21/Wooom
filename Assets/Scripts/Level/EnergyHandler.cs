@@ -29,7 +29,7 @@ namespace Level.Managment
         }
         public void Spend(int energyLevel)
         {
-            CurrentEnergy -= energyLevel;
+            CurrentEnergy -= energyLevel * (CurrentPlayerLevel + 1);
             CheckNextLevel();
             
             NotifyChangeSlider();
@@ -37,9 +37,11 @@ namespace Level.Managment
 
         private void CheckNextLevel()
         {
-            if (CurrentEnergy < 0)
+            if (CurrentEnergy <= 0)
             {
-                if (--CurrentPlayerLevel < 0)
+                CurrentPlayerLevel--;
+                
+                if (CurrentPlayerLevel < 0)
                 {
                     Debug.Log($"You lose");
                     return;
@@ -47,10 +49,10 @@ namespace Level.Managment
                     
                 OnChangeLevel?.Invoke(CurrentPlayerLevel);
                 CurrentEnergy = CountEnergyOnLevels[CurrentPlayerLevel];
-                
+                return;
             }
-
-            if (CurrentEnergy >= CountEnergyOnLevels[CurrentPlayerLevel])
+            
+            if (CurrentEnergy > CountEnergyOnLevels[CurrentPlayerLevel])
             {
                 OnChangeLevel?.Invoke(++CurrentPlayerLevel);
                 CurrentEnergy = 0;
