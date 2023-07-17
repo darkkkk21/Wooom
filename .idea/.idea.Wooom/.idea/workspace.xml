@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/CameraMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/CameraMovement.cs.meta" afterDir="false" />
+    <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="Add camera mover">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Camera.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/CharacterInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/CharacterInput.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level/EnergyHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level/EnergyHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Camera/CameraMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level/CameraMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Camera/CameraMovement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level/CharacterMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level/CharacterMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level/CharacterMover.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,7 @@
       <workItem from="1685997242375" duration="156000" />
       <workItem from="1686683446436" duration="4056000" />
       <workItem from="1689507930960" duration="5106000" />
-      <workItem from="1689621642741" duration="1824000" />
+      <workItem from="1689621642741" duration="2629000" />
     </task>
     <task id="LOCAL-00001" summary="add export game">
       <created>1686683561099</created>
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689539978231</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add camera mover">
+      <created>1689623658973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689623658973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add export game" />
     <MESSAGE value="Finish main logic in game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish main logic in game" />
+    <MESSAGE value="Add camera mover" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add camera mover" />
   </component>
 </project>

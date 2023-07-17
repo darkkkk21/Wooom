@@ -1,35 +1,35 @@
-﻿using DG.Tweening;
-using Level.Managment;
-using Unity.Collections;
+﻿using System;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
 namespace Level
 {
-    public class CharacterMovement : MonoBehaviour
+    public class CharacterInput : MonoBehaviour
     {
-        public EnergyHandler EnergyHandler;
         public float swipeThreshold = 50f;
-        public Tilemap Tilemap;
-
-        private Vector3Int currentCell;
         private Vector3 swipeStartPosition;
-        private bool isMove;
 
-        private void Start()
-        {
-            currentCell = Tilemap.WorldToCell(transform.position);
-        }
+        public event Action<Vector3Int> OnGetMove;
 
+        private bool isLock;
         private void Update()
         {
-            if (isMove)
+            if (isLock)
                 return;
             
             HandleTouch();
             HandleKeyboardMovement();
         }
 
+        public void Lock()
+        {
+            isLock = true;
+        }
+        
+        public void Unlock()
+        {
+            isLock = false;
+        }
+        
         private void HandleTouch()
         {
             if (Input.touchCount > 0)
@@ -54,22 +54,22 @@ namespace Level
                             {
                                 if (swipeDirection.x > 0)
                                 {
-                                    TryMoveCharacter(Vector3Int.right);
+                                    OnGetMove?.Invoke(Vector3Int.right);
                                 }
                                 else
                                 {
-                                    TryMoveCharacter(Vector3Int.left);
+                                    OnGetMove?.Invoke(Vector3Int.left);
                                 }
                             }
                             else
                             {
                                 if (swipeDirection.y > 0)
                                 {
-                                    TryMoveCharacter(Vector3Int.up);
+                                    OnGetMove?.Invoke(Vector3Int.up);
                                 }
                                 else
                                 {
-                                    TryMoveCharacter(Vector3Int.down);
+                                    OnGetMove?.Invoke(Vector3Int.down);
                                 }
                             }
                         }
@@ -83,57 +83,31 @@ namespace Level
         {
             if (Input.GetKeyDown(KeyCode.W))
             {
-                TryMoveCharacter(Vector3Int.up);
+                OnGetMove?.Invoke(Vector3Int.up);
             }
 
             if (Input.GetKeyDown(KeyCode.S))
             {
-                TryMoveCharacter(Vector3Int.down);
+                OnGetMove?.Invoke(Vector3Int.down);
             }
 
             if (Input.GetKeyDown(KeyCode.A))
             {
-                TryMoveCharacter(Vector3Int.left);
+                OnGetMove?.Invoke(Vector3Int.left);
             }
 
             if (Input.GetKeyDown(KeyCode.D))
             {
-                TryMoveCharacter(Vector3Int.right);
+                OnGetMove?.Invoke(Vector3Int.right);
             }
         }
+    }
 
-        private void TryMoveCharacter(Vector3Int direction)
-        {
-            Vector3Int targetCell = currentCell + direction;
-
-            Vector3 targetPosition = Tilemap.GetCellCenterWorld(targetCell);
-            Collider2D overlapCollider = Physics2D.OverlapPoint(new Vector2(targetPosition.x, targetPosition.y));
-
-            if (overlapCollider == null)
-            {
-                Move(targetPosition);
-                currentCell = targetCell;
-                EnergyHandler.Spend(1);
-            }
-
-            if (overlapCollider != null && overlapCollider.GetComponent<Energy>())
-            {
-                var energy = overlapCollider.GetComponent<Energy>();
-                EnergyHandler.AddEnergy(energy.LevelEnergy);
-                Destroy(energy.gameObject);
-                
-                Move(targetPosition);
-                currentCell = targetCell;
-            }
-                
-        }
-
-        private void Move(Vector3 position)
-        {
-            isMove = true;
-            transform.DOMove(position, 0.4f)
-                .OnComplete(() => isMove = false)
-                .Play();
-        }
+    public enum Direction
+    {
+        Up,
+        Down,
+        Left,
+        Right
     }
 }
