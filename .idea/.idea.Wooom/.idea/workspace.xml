@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="" />
+    <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LobbyArbiter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LobbyArbiter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LobbyView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LobbyView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Energy 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Energy 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Energy 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/Energy 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Energy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Energy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/UI/4x/Asset 1@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/UI/4x/Asset 1@4x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level/Camera/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Camera/CameraMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Travis Game Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Travis Game Assets/Hit Impact Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Travis Game Assets/Hit Impact Effects/Pipeline Upgrade.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Travis Game Assets/Hit Impact Effects/Pipeline Upgrade/Hit Impact Effects FREE - URP.unitypackage.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/00/25a4f571/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/00/25a4f571/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edae9acfb32b434e9f1e104d7ab2dc7852000/c8/08edabc6/Command.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2QnlSVjDYsYUfiuIGe87yIzaW1t" />
@@ -70,6 +90,8 @@
       <workItem from="1690659332560" duration="83000" />
       <workItem from="1690723043658" duration="1898000" />
       <workItem from="1690834792317" duration="51000" />
+      <workItem from="1692043118410" duration="88000" />
+      <workItem from="1692528950145" duration="3648000" />
     </task>
     <task id="LOCAL-00001" summary="add export game">
       <created>1686683561099</created>
@@ -120,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690834834636</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create portal particle">
+      <created>1692043186122</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692043186122</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +191,7 @@
     <MESSAGE value="Add export UI. Create progress bar." />
     <MESSAGE value="add needed package" />
     <MESSAGE value="Create energy with use particle system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create energy with use particle system" />
+    <MESSAGE value="Create portal particle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create portal particle" />
   </component>
 </project>
