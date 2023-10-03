@@ -1,118 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="">
+    <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="to  1.2.1">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/Data/LevelInformation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/Data/LevelInformation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/Data/LevelSelectState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/Data/LevelSelectState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/LevelButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/LevelButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/SelectLevelController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/SelectLevelController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/SelectLevelData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/SelectLevelData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/SelectLevelView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/SelectLevelView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/StarsPanel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/LevelSelect/StarsPanel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/Components/ShopItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/Components/ShopItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/ItemInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/ItemInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/ShopController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/ShopController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/ShopItemInfoData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/ShopItemInfoData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/ShopView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/UIViews/Shop/ShopView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Data.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Data/DataDefault.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Data/DataDefault.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Data/ProjectAudioPath.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Data/ProjectAudioPath.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings/SettingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings/SettingService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings/SettingWithSliderView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings/SettingWithSliderView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings/SettingWithToggleView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings/SettingWithToggleView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings/SettingsData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Example/View/Settings/SettingsData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/ComponentHelp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/ComponentHelp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/ComponentHelp/ButtonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/ComponentHelp/ButtonUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/ComponentHelp/ImageFader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/ComponentHelp/ImageFader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/Audio.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/Audio/ProjectAudioPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/Audio/ProjectAudioPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/Audio/ProjectAudioType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/Audio/ProjectAudioType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/DI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/DI.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/DI/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/DI/ProjectContext.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/DI/ProjectInjector.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/DI/ProjectInjector.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/DI/ProjectInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Project/DI/ProjectInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/Audio.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/Audio/AudioCore.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/Audio/AudioCore.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/Audio/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/Audio/Data.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService/Data.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService/Data/DataType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService/Data/DataType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService/DataHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService/DataHub.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService/SaveLoadService.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/DataHubService/SaveLoadService.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/ResourceData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/ResourceData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/ResourceType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/ResourceType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/ResourceVault.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/ResourceVault.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/VIew.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/VIew.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/VIew/ResourcePanelView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/VIew/ResourcePanelView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/VIew/ResourcePanelView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/ResourceVaultService/VIew/ResourcePanelView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/SceneLoaderService.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/SceneLoaderService.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/TimerService.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/TimerService.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/TimerService/Converter.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/TimerService/Converter.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/TimerService/TimeHandlerService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/TimerService/TimeHandlerService.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/TimerService/Timers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/TimerService/Timers.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/BaseView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/BaseView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/Data.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/Data/UIViewData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/Data/UIViewData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/UIViewType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/UIViewType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/Animations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/Animations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/Animations/ViewAnimationOnlyFader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/Animations/ViewAnimationOnlyFader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/Animations/ViewAnimationRightToLeft.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/Animations/ViewAnimationRightToLeft.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/Animations/ViewAnimationZeroToOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/Animations/ViewAnimationZeroToOne.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/BaseViewAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/BaseViewAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/AspectRatioPreset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/AspectRatioPreset.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/AspectRatioPreset.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/AspectRatioPreset.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/AspectRatioPresetsAggregator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/AspectRatioPresetsAggregator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/AspectRatioPresetsAggregator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/AspectRatioPresetsAggregator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectRatioType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectRatioType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectRatioType.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectRatioType.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectsRangesData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectsRangesData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectsRangesData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/AspectsRangesData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/PresetData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/PresetData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/PresetData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/PresetData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/TransformWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/TransformWrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/TransformWrapper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/AspectPresets/Data/TransformWrapper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/Extensions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/Extensions.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent/Editor/SerializableDictionaryPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent/Editor/SerializableDictionaryPropertyDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent/SerializableDictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent/SerializableDictionary.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent/SerializableHashSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/MaxCore/Tools/SerializableComponent/SerializableHashSet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/UI/Buttons/BIPs.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/UI/Buttons/BIPs.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,8 +18,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Projects/Wooom/Assets/Tools/MaxCore/Scripts/Services/UIViewService/ViewAnimator/Animations.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/00/25a4f571/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edae9acfb32b434e9f1e104d7ab2dc7852000/c8/08edabc6/Command.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/Wooom/Assets/Scenes/Lobby.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2QnlSVjDYsYUfiuIGe87yIzaW1t" />
   <component name="ProjectLevelVcsManager">
@@ -184,7 +81,7 @@
       <workItem from="1690834792317" duration="51000" />
       <workItem from="1692043118410" duration="88000" />
       <workItem from="1692528950145" duration="4284000" />
-      <workItem from="1696358346575" duration="138000" />
+      <workItem from="1696358346575" duration="1358000" />
     </task>
     <task id="LOCAL-00001" summary="add export game">
       <created>1686683561099</created>
@@ -249,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693337930381</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update core">
+      <created>1696358529368</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696358529368</updated>
+    </task>
+    <task id="LOCAL-00011" summary="to  1.2.1">
+      <created>1696358553306</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696358553306</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +204,8 @@
     <MESSAGE value="Create energy with use particle system" />
     <MESSAGE value="Create portal particle" />
     <MESSAGE value="Add new decoration, create first game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new decoration, create first game" />
+    <MESSAGE value="Update core" />
+    <MESSAGE value="to  1.2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="to  1.2.1" />
   </component>
 </project>
