@@ -5,9 +5,10 @@ using UnityEngine;
 
 namespace Tools.MaxCore.Scripts.ComponentHelp
 {
-    [RequireComponent(typeof(BoxCollider2D))]
     public class ButtonUI : MonoBehaviour
     {
+        [SerializeField] private Collider2D collider2D;
+        
         private ProjectAudioPlayer ProjectAudioPlayer => ProjectContext.Instance.GetDependence<ProjectAudioPlayer>();
         public event Action OnClick;
 
@@ -19,10 +20,14 @@ namespace Tools.MaxCore.Scripts.ComponentHelp
                 ProjectAudioPlayer.PlayAudioSfx(ProjectAudioType.Click);
         }
 
-        public void TurnOff() => 
-            enabled = false;
-    
-        public void TurnOn() => 
-            enabled = false;
+        public void Diactivate()
+        {
+            collider2D.enabled = false;
+        }
+
+        public void Activate()
+        {
+            collider2D.enabled = true;
+        }
     }
 }

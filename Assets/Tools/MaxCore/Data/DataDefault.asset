@@ -13,22 +13,77 @@ MonoBehaviour:
   m_Name: DataDefault
   m_EditorClassIdentifier: 
   _resource:
-    MapInt:
+    _mapInt:
+      m_keys: 02000000
+      m_values: 00000000
+    _mapFloat:
       m_keys: 
-      m_values: 
-    MapFloat:
-      m_keys: 00000000
-      m_values:
-      - 1000
+      m_values: []
   Settings:
-    IsSound: 1
-    IsMusic: 1
-    IsVibro: 0
-    IsSliderActive: 0
     SoundVolumeCount: 0
-    MusicVolumeCount: 0
-  Progress:
-    CurrentIDItem: 0
-    AvailableSkins: 00000000
+    MusicVolumeCount: -20
   SelectLevel:
     countLevels: 20
+    Levels:
+    - CountLevel: 0
+      LevelSelectState: 1
+      CountStarInLevel: 0
+    - CountLevel: 1
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 2
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 3
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 4
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 5
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 6
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 7
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 8
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 9
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 10
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 11
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 12
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 13
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 14
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 15
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 16
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 17
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 18
+      LevelSelectState: 0
+      CountStarInLevel: 0
+    - CountLevel: 19
+      LevelSelectState: 0
+      CountStarInLevel: 0
+  DailyData:
+    IsGottenBonus: 0

@@ -15,6 +15,7 @@ namespace Tools.MaxCore.Scripts.Services.UIViewService
         Pause,
         SlotMachine,
         BetHistory,
-        ClearPopUp
+        ClearPopUp,
+        Daily
     }
 }

@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: ProjectAudioPath
   m_EditorClassIdentifier: 
   ProjectAudioPathMap:
-    m_keys: 00000000020000000300000004000000
+    m_keys: 00000000020000000300000004000000010000000500000006000000
     m_values:
-    - {fileID: 8300000, guid: 1338ca7cdf8d349649cd99d69685103e, type: 3}
-    - {fileID: 8300000, guid: 845807823fc3b47b6b5d2a2594ebcc9b, type: 3}
-    - {fileID: 8300000, guid: 09e72a3bb0c904c139b82abc7737260c, type: 3}
-    - {fileID: 8300000, guid: e5584251eb85e4fc7a93b850dbe4276b, type: 3}
+    - {fileID: 8300000, guid: 40628babf28cb455b9903c09ecfac3e8, type: 3}
+    - {fileID: 8300000, guid: 1ab6882e5806447848bfcda5119d3965, type: 3}
+    - {fileID: 8300000, guid: 1c09aec4a529749b5ab06ca32a0c69fa, type: 3}
+    - {fileID: 8300000, guid: f8113616c84e14598ac00c79b01f36d0, type: 3}
+    - {fileID: 8300000, guid: bb86214ddccfd40359e04a9a6c774c6a, type: 3}
+    - {fileID: 8300000, guid: 4977e41dd3d874448a9fcfd429879667, type: 3}
+    - {fileID: 8300000, guid: 572b5b1ff17a74e17ada1307d4fa0b3a, type: 3}

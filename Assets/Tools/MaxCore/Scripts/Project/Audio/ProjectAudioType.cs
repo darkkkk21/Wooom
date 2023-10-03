@@ -5,7 +5,9 @@ namespace Tools.MaxCore.Scripts.Project.Audio
         LobbyAmbient,
         LevelAmbient,
         Click,
-        StartMove,
-        FinishMove
+        Win,
+        Lose,
+        Fall,
+        Fuse
     }
 }

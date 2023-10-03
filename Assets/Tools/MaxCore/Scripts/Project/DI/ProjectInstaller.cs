@@ -1,6 +1,4 @@
 using Game.Scripts.Runtime.Feature.UIViews.LevelSelect;
-using Game.Scripts.Runtime.Feature.UIViews.Shop;
-using Game.Scripts.Runtime.Services.SateMachine;
 using Tools.MaxCore.Example.View.Settings;
 using Tools.MaxCore.Scripts.ComponentHelp;
 using Tools.MaxCore.Scripts.Project.Audio;
@@ -23,11 +21,11 @@ namespace Tools.MaxCore.Scripts.Project.DI
         public UIViewService UIViewService;
         public DataHub DataHub;
         public ResourceVault ResourceVault;
-        public GameStateMachine StateMachine;
 
         [Header("Controllers in MVC")] 
         public SelectLevelController SelectLevelController;
-        public ShopController ShopController;
+        
+        [Header("Game services")]
 
         private DIContainer container;
 
@@ -45,7 +43,6 @@ namespace Tools.MaxCore.Scripts.Project.DI
         private void RegisterControllers()
         {
             container.Register(SelectLevelController);
-            container.Register(ShopController);
         }
 
         private void RegisterServices()
@@ -56,9 +53,9 @@ namespace Tools.MaxCore.Scripts.Project.DI
             container.Register(SceneNavigation);
             container.Register(ProjectAudioPlayer);
             container.Register(UIViewService);
-            container.Register(ResourceVault);
             container.Register(DataHub);
-            container.Register(StateMachine);
+            container.Register(ResourceVault);
+
         }
     }
 }

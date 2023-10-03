@@ -15,50 +15,26 @@ namespace Tools.MaxCore.Example.View.Settings
         [Inject] private DataHub dataHub;
         [Inject] private AudioService audioService;
 
-        public void Initialize() => 
+        public void Initialize()
+        {
             SettingsData = dataHub.LoadData<SettingsData>(DataType.Settings);
-
-        public void TurnSound(bool isOn)
-        {
-            var value = isOn ? 0 : -80;
-            audioService.SetVolume(AudioType.Music, value);
-            audioService.SetVolume(AudioType.Sfx, value);
-            
-            SettingsData.IsSound = isOn;
         }
-        public void TurnMusic(bool isOn)
-        {
-            var value = isOn ? -20 : -80;
-            audioService.SetVolume(AudioType.Background, value);
-            
-            SettingsData.IsMusic = isOn;
-        }
-        public void ChangeVibro(bool isOn) => 
-            SettingsData.IsVibro = isOn;
 
         public void ChangeSound(float value)
         {
-            var intValue = Mathf.Lerp(-80, 0, value);
+            audioService.SetVolume(AudioType.Music, value);
+            audioService.SetVolume(AudioType.Sfx, value);
             
-            audioService.SetVolume(AudioType.Music, intValue);
-            audioService.SetVolume(AudioType.Sfx, intValue);
-            SettingsData.SoundVolumeCount = intValue;
+            SettingsData.SoundVolumeCount = value;
         }
 
         public void ChangeMusic(float value)
         {
-            var intValue = Mathf.Lerp(-80, -20, value);
-          
-            audioService.SetVolume(AudioType.Background, intValue);
-            SettingsData.MusicVolumeCount = intValue;
+            audioService.SetVolume(AudioType.Background, value);
             
+            SettingsData.MusicVolumeCount = value;
         }
         
-        public float GetMusicValue => 
-            (SettingsData.MusicVolumeCount - (-80)) / (-20 - (-80));
-        public float GetSoundValue => 
-            (SettingsData.SoundVolumeCount - (-80)) / (0 - (-80));
-
         public void SaveData() =>
             dataHub.SaveData(DataType.Settings, SettingsData);
     }

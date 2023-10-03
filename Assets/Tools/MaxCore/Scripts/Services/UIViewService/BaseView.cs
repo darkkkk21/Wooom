@@ -1,4 +1,5 @@
 using System;
+using DG.Tweening;
 using Tools.MaxCore.Scripts.Services.UIViewService.ViewAnimator;
 using UnityEngine;
 
@@ -17,10 +18,12 @@ namespace Tools.MaxCore.Scripts.Services.UIViewService
         {
             Initialize();
             Subscribe();
-            NotifyAnimator();
-            Open();
-
-            OnOpenView?.Invoke();
+            
+            NotifyAnimator(()=>
+            {
+                Open();
+                OnOpenView?.Invoke();         
+            });
         }
 
         private void OnDestroy()
@@ -37,9 +40,14 @@ namespace Tools.MaxCore.Scripts.Services.UIViewService
         {
             CheckDestroy();
         }
-        public void DestroyView()
+        protected void ClosePanelDelay(float value)
         {
-            Destroy(gameObject);
+            DOVirtual.DelayedCall(value, CheckDestroy).Play();
+        }
+        
+        public void DestroyView(float value = 0)
+        {
+            Destroy(gameObject, value);
         }
 
         public void SetView(UIViewType type)
@@ -71,13 +79,17 @@ namespace Tools.MaxCore.Scripts.Services.UIViewService
                 animator.Close();
             }
         }
-        private void NotifyAnimator()
+        private void NotifyAnimator(Action callback)
         {
             animator = GetComponent<BaseViewAnimator>();
             
             if (animator != null)
             {
-                animator.Open();
+                animator.Open(callback);
+            }
+            else
+            {
+                callback.Invoke();
             }
         }
     }

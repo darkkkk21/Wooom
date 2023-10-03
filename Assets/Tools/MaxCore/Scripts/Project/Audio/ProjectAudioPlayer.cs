@@ -26,13 +26,6 @@ namespace Tools.MaxCore.Scripts.Project.Audio
         {
             SettingsData = dataHub.LoadData<SettingsData>(DataType.Settings);
             
-            audioService.SetVolume(AudioType.Background, SettingsData.IsMusic ? -20 : -80);
-            audioService.SetVolume(AudioType.Music, SettingsData.IsSound ? 0 : -80);
-            audioService.SetVolume(AudioType.Sfx, SettingsData.IsSound ? 0 : -80);
-
-            if (!SettingsData.IsSliderActive)
-                return;
-
             audioService.SetVolume(AudioType.Background, SettingsData.MusicVolumeCount);
             audioService.SetVolume(AudioType.Music, SettingsData.SoundVolumeCount);
             audioService.SetVolume(AudioType.Sfx, SettingsData.SoundVolumeCount);

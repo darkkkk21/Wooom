@@ -1,3 +1,4 @@
+using System;
 using DG.Tweening;
 using UnityEngine;
 
@@ -9,13 +10,14 @@ namespace Tools.MaxCore.Scripts.Services.UIViewService.ViewAnimator.Animations
 
         private float CameraWidth => Camera.main.aspect * Camera.main.orthographicSize * 2f;
        
-        public override void Open()
+        public override void Open(Action callback)
         {
             transform.position = new Vector3(CameraWidth, transform.position.y, transform.position.z);
             
             transform
                 .DOLocalMoveX(0, 0.5f)
                 .SetEase(_easeType)
+                .OnComplete(() => callback?.Invoke())
                 .Play();
         }
 

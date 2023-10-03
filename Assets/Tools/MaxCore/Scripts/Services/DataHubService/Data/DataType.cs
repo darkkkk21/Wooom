@@ -6,8 +6,6 @@ namespace Tools.MaxCore.Scripts.Services.DataHubService.Data
         Settings,
         Progress,
         SelectLevel,
-        BetHistory,
-        Challenge,
-        Puzzle
+        Daily
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using DG.Tweening;
 using Tools.MaxCore.Scripts.ComponentHelp;
 using UnityEngine;
@@ -10,14 +11,15 @@ namespace Tools.MaxCore.Scripts.Services.UIViewService.ViewAnimator.Animations
         [SerializeField] private Transform _view;
 
         [SerializeField] private Ease _easeType;
-        
-        public override void Open()
+
+        public override void Open(Action callback)
         {
             _view.localScale = Vector3.zero;
-            
+
             _fader.FadeTo(0.3f, () =>
             {
                 _view.DOScale(Vector3.one, .3f)
+                    .OnComplete(() => callback?.Invoke())
                     .Play();
             });
         }
@@ -26,7 +28,7 @@ namespace Tools.MaxCore.Scripts.Services.UIViewService.ViewAnimator.Animations
         {
             _view.DOScale(Vector3.zero, .3f)
                 .SetEase(_easeType)
-                .OnComplete(() => { _fader.FadeOut(0.3f, () => BaseView.DestroyView());})
+                .OnComplete(() => { _fader.FadeOut(0.3f, () => BaseView.DestroyView()); })
                 .Play();
         }
     }

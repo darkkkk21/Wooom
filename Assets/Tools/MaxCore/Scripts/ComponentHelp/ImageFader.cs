@@ -1,5 +1,6 @@
 using System;
 using DG.Tweening;
+using Tools.MaxCore.Tools.Extensions;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +15,7 @@ namespace Tools.MaxCore.Scripts.ComponentHelp
         public void FadeTo(float time, Action callback = null)
         {
             TurnOn();
+            Image.SetAlpha(0);
             Fade(time, FadeEndValue, callback);
         }
 

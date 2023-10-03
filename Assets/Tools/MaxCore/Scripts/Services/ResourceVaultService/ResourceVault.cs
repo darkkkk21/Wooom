@@ -1,31 +1,70 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Tools.MaxCore.Scripts.Project.DI;
+using Tools.MaxCore.Scripts.Project.DI.ProjectInjector;
+using Tools.MaxCore.Scripts.Services.DataHubService;
+using Tools.MaxCore.Scripts.Services.DataHubService.Data;
 using UnityEngine;
 
 namespace Tools.MaxCore.Scripts.Services.ResourceVaultService
 {
-    public class ResourceVault : MonoBehaviour
+    public class ResourceVault : MonoBehaviour, IProjectInitializable
     {
         private Dictionary<ResourceType, Resource<int>> resourcesMapInt;
         private Dictionary<ResourceType, Resource<float>> resourcesMapFloat;
 
         public event Action<ResourceType, int> OnResourceChanged;
         public event Action<ResourceType, float> OnFloatResourceChanged;
+        
+        [Inject] private DataHub dataHub;
+        private ResourceData resourcesData;
 
-        public void Initialize(Resource<int>[] resources)
+        public void Initialize()
+        {
+            resourcesData = dataHub.LoadData<ResourceData>(DataType.Resource);
+            InitializeResources();
+
+            OnResourceChanged += SaveResource;
+            OnFloatResourceChanged += SaveResource;
+        }
+
+        private void SaveResource(ResourceType type, float value)
+        {
+            resourcesData.MapFloat[type] = value;
+            dataHub.SaveData(DataType.Resource, resourcesData);
+        }
+
+        private void SaveResource(ResourceType type, int value)
+        {
+            resourcesData.MapInt[type] = value;
+            dataHub.SaveData(DataType.Resource, resourcesData);
+        }
+
+
+        private void InitializeResources()
+        {
+            var resources = resourcesData.MapInt.Select(r => new Resource<int>(r.Key, r.Value)).ToArray();
+            var resourcesFloat = resourcesData.MapFloat.Select(r => new Resource<float>(r.Key, r.Value)).ToArray();
+
+            InitializeInt(resources);
+            InitializeFloat(resourcesFloat);
+        }
+
+        private void InitializeInt(Resource<int>[] resources)
         {
             resourcesMapInt = resources.ToDictionary(r => r.Type);
 
             SubscribeAllResourcesInt();
         }
-        public void Initialize(Resource<float>[] resources)
+
+        private void InitializeFloat(Resource<float>[] resources)
         {
             resourcesMapFloat = resources.ToDictionary(r => r.Type);
 
             SubscribeAllResourcesFloat();
         }
-
+        
         public void AddResource(ResourceType type, int value)
         {
             var resource = resourcesMapInt[type];
@@ -47,18 +86,7 @@ namespace Tools.MaxCore.Scripts.Services.ResourceVaultService
         {
             return resourcesMapInt[type].Amount;
         }
-
-        public Dictionary<ResourceType, int> GetResourcesAmountMap()
-        {
-            var resourcesAmountMap = new Dictionary<ResourceType, int>();
-
-            foreach (var (resourceType, resource) in resourcesMapInt)
-            {
-                resourcesAmountMap.Add(resourceType, resource.Amount);
-            }
-
-            return resourcesAmountMap;
-        }
+        
         public void AddResource(ResourceType type, float value)
         {
             var resource = resourcesMapFloat[type];
@@ -81,18 +109,6 @@ namespace Tools.MaxCore.Scripts.Services.ResourceVaultService
             return resourcesMapFloat[type].Amount;
         }
 
-        public Dictionary<ResourceType, float> GetFloatResourcesAmountMap()
-        {
-            var resourcesAmountMap = new Dictionary<ResourceType, float>();
-
-            foreach (var (resourceType, resource) in resourcesMapFloat)
-            {
-                resourcesAmountMap.Add(resourceType, resource.Amount);
-            }
-
-            return resourcesAmountMap;
-        }
-
         private void SubscribeAllResourcesInt()
         {
             foreach (var resource in resourcesMapInt.Values)
@@ -100,6 +116,7 @@ namespace Tools.MaxCore.Scripts.Services.ResourceVaultService
                 resource.OnChanged += delegate(int newValue) { OnResourceChanged?.Invoke(resource.Type, newValue); };
             }
         }
+
         private void SubscribeAllResourcesFloat()
         {
             foreach (var resource in resourcesMapFloat.Values)

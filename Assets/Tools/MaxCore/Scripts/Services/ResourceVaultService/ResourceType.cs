@@ -4,8 +4,11 @@ namespace Tools.MaxCore.Scripts.Services.ResourceVaultService
     {
         Coin,
         HighScore,
-        X2Bonus,
-        CrazyBonus,
-        Gem
+        Gem,
+        Line,
+        Bomb,
+        Triple,
+        Life
+        
     }
 }
