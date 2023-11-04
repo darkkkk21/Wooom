@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="to  1.2.1">
+    <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Export/UI/Buttons/BIPs.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Export/UI/Buttons/BIPs.ttf.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
       <workItem from="1690834792317" duration="51000" />
       <workItem from="1692043118410" duration="88000" />
       <workItem from="1692528950145" duration="4284000" />
-      <workItem from="1696358346575" duration="1358000" />
+      <workItem from="1696358346575" duration="2588000" />
     </task>
     <task id="LOCAL-00001" summary="add export game">
       <created>1686683561099</created>
@@ -160,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696358553306</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added settings view">
+      <created>1696361448674</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696361448674</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +209,7 @@
     <MESSAGE value="Add new decoration, create first game" />
     <MESSAGE value="Update core" />
     <MESSAGE value="to  1.2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="to  1.2.1" />
+    <MESSAGE value="Added settings view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added settings view" />
   </component>
 </project>

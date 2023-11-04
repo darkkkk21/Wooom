@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: LevelSelect
+    uniqueID: 1522995975
+    locked: 0
+  - name: LevelSelectDecor
+    uniqueID: 942270137
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
