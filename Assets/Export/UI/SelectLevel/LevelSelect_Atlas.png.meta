@@ -168,9 +168,9 @@ TextureImporter:
       name: Asset 40@4x_2
       rect:
         serializedVersion: 2
-        x: 1683
+        x: 1676
         y: 2622
-        width: 832
+        width: 826
         height: 609
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
