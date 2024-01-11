@@ -2,66 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Direction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Direction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/Data/CharacterSkins.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/Data/CharacterSkins.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/Data/SettingsCharacterSkin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/Data/SettingsCharacterSkin.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/Data/SkinInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/Data/SkinInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/PlayerSkinElement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/PlayerSkinElement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/SkinChanger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/SkinChanger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/SkinElement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/Modules/Skin/SkinElement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/PlayerAnimator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/PlayerAnimator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/PlayerHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/PlayerHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/PlayerMover.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/PlayerMover.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/PlayerScaler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level/Player/PlayerScaler.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Export/Characters/01/Animations/Character_01.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Characters/01/Animations/Character_01.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Export/Characters/01/Sprites/1_IDLE_000.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Characters/01/Sprites/1_IDLE_000.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Energy 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/Energy 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Export/UI/SelectLevel/LevelSelect_Atlas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/UI/SelectLevel/LevelSelect_Atlas.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/Beam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/Beam.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/BeamMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/BeamMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/Circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/Circle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/CircleMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/CircleMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/Point Light.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/Point Light.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/Star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/Star.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/StarMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Energy/StarMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Apple.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Apple.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Coin_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Coin_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Diamond.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Diamond.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/New Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/New Palette.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/5a39c6e6550e46.57261451151373591034846026.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/5a39c6e6550e46.57261451151373591034846026.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/CircleMatirial 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/CircleMatirial 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/CircleMatirial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/CircleMatirial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/StoneCircle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/StoneCircle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/kisspng-dobermann-blue-desktop-wallpaper-aura-5abec38ce5a4f7.0020747315224513409406.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Portal/kisspng-dobermann-blue-desktop-wallpaper-aura-5abec38ce5a4f7.0020747315224513409406.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +27,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/00/25a4f571/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edae9acfb32b434e9f1e104d7ab2dc7852000/c8/08edabc6/Command.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/Wooom/Assets/Export/Characters/01/Sprites/1_IDLE_000.png.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2QnlSVjDYsYUfiuIGe87yIzaW1t" />
   <component name="ProjectLevelVcsManager">
@@ -145,6 +91,7 @@
       <workItem from="1699118729497" duration="621000" />
       <workItem from="1699816310006" duration="5950000" />
       <workItem from="1700509031043" duration="3065000" />
+      <workItem from="1704633158753" duration="825000" />
     </task>
     <task id="LOCAL-00001" summary="add export game">
       <created>1686683561099</created>
@@ -237,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699118766581</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Create character animation">
+      <created>1704633361586</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704633361586</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +239,7 @@
     <MESSAGE value="to  1.2.1" />
     <MESSAGE value="Added settings view" />
     <MESSAGE value="Made up level select" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made up level select" />
+    <MESSAGE value="Create character animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create character animation" />
   </component>
 </project>
