@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a367d7b7-b907-4dd1-b73d-d6d7c9f5247d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Apple.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Apple.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Coin_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Coin_01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Diamond.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/Collectable Object/Diamond.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Export/Level/New Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Export/Level/New Palette.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LevelSelect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LevelSelect/FieldMovement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LevelSelect/FieldMovement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LevelSelect/FieldPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LevelSelect/FieldPoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LevelSelect/PointSwitcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LevelSelect/PointSwitcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LevelSelect/SideType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Lobby/LevelSelect/SideType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wooom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/Lobby/LobbyView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Runtime/Feature/Lobby/LobbyView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +33,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4911eca47f294e18a7b3306f02701303946200/65/21423096/SerializedObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4aa941e3d4884fe686ef52218eab4ee617a7e0/b4/95f6fd36/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6c9b376c3fca40b787e8c1a2133bf243171a00/93/a6344502/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/00/25a4f571/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edae9acfb32b434e9f1e104d7ab2dc7852000/c8/08edabc6/Command.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Projects/Wooom/Assets/Export/Characters/01/Sprites/1_IDLE_000.png.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2QnlSVjDYsYUfiuIGe87yIzaW1t" />
   <component name="ProjectLevelVcsManager">
@@ -59,10 +69,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12856">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="12856" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -92,6 +102,8 @@
       <workItem from="1699816310006" duration="5950000" />
       <workItem from="1700509031043" duration="3065000" />
       <workItem from="1704633158753" duration="825000" />
+      <workItem from="1705001893115" duration="19025000" />
+      <workItem from="1705347457155" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="add export game">
       <created>1686683561099</created>
@@ -191,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704633361586</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added logo animation">
+      <created>1705002006951</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705002006951</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +259,7 @@
     <MESSAGE value="Added settings view" />
     <MESSAGE value="Made up level select" />
     <MESSAGE value="Create character animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create character animation" />
+    <MESSAGE value="Added logo animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logo animation" />
   </component>
 </project>
